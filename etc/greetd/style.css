@@ -1,0 +1,12 @@
+window {
+   background-image: url("file:///etc/greetd/background.jpg");
+   background-size: cover;
+   background-position: center;
+}
+
+box#body {
+   background-color: rgba(65, 145, 195, 0.90);
+   border: 1px solid rgb(68, 68, 68);
+   border-radius: 5px;
+   padding: 40px;
+}
