@@ -8,4 +8,9 @@ export ELM_ENGINE=wayland_egl
 export SDL_VIDEODRIVER=wayland
 export _JAVA_AWT_WM_NONREPARENTING=1
 export NO_AT_BRIDGE=1
+
+# See: https://github.com/Biont/sway-launcher-desktop
 export TERMINAL_COMMAND="foot"
+
+# See: https://github.com/swaywm/wlroots/issues/1877
+export WLR_DRM_NO_MODIFIERS=1
